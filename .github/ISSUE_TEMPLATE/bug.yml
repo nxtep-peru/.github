@@ -1,0 +1,42 @@
+name: Bug
+description: Algo no funciona como debería.
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Un issue por problema. Quien lo toma se asigna en **Assignees**, y la
+        prioridad y el esfuerzo se completan al planificar: no hace falta
+        escribirlos en el título.
+  - type: textarea
+    id: actual
+    attributes:
+      label: Qué pasa
+      description: Lo que ves, con el mensaje de error exacto si hay uno.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Qué debería pasar
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: |
+        1. Entrar a …
+        2. …
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Dónde
+      description: La pantalla, la URL o el endpoint, y el entorno si no es producción.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Capturas, logs o la respuesta del servidor. Nunca contraseñas, tokens ni datos personales.

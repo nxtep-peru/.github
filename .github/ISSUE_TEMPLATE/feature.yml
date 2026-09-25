@@ -1,0 +1,45 @@
+name: Feature
+description: Algo nuevo o distinto que podrá hacer quien usa el producto.
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Para trabajo que no cambia lo que ve quien usa el producto, como
+        configuración, refactor o investigación, usa **Task**. Quien toma el
+        issue se asigna en **Assignees**, y la prioridad y el esfuerzo se
+        completan al planificar.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema u oportunidad
+      description: Qué necesita la persona usuaria y por qué hoy no puede hacerlo.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Qué debería poder hacer. Si hay un diseño, enlázalo.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación
+      description: Cómo se comprueba que está hecho.
+      placeholder: |
+        - [ ] …
+        - [ ] …
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Fuera de alcance
+      description: Lo que no entra en este issue, para que no crezca solo.
+  - type: textarea
+    id: references
+    attributes:
+      label: Referencias
+      description: Diseños, issues relacionados o conversaciones.

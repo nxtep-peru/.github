@@ -1,0 +1,35 @@
+name: Task
+description: Trabajo que no es un bug ni una funcionalidad nueva.
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Configuración, refactor, dependencias, documentación, diseño o
+        investigación. Quien la toma se asigna en **Assignees**, y la
+        prioridad y el esfuerzo se completan al planificar.
+  - type: textarea
+    id: what
+    attributes:
+      label: Qué hay que hacer
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Para qué
+      description: Qué habilita o qué evita.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Cuándo está terminada
+      description: Cómo se comprueba que quedó hecha.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Referencias
+      description: Issues relacionados, documentos o conversaciones.
