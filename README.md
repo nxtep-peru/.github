@@ -14,5 +14,9 @@ GitHub la aplica a todo repo que no tenga la suya.
 Un repo que define su propia carpeta `.github/ISSUE_TEMPLATE` deja de
 usar **todos** los formularios de aquí, no solo los que reemplaza.
 
+La tabla de proyectos de `profile/README.md` se actualiza a mano: cuando
+un proyecto cambia de etapa o nace uno nuevo, se corrige en un PR, junto
+con la fecha del estado.
+
 Este repo es público porque GitHub lo exige para aplicar las plantillas.
 Aquí no va nada interno.
