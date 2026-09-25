@@ -48,8 +48,10 @@ cómo se cierra el trabajo de DevOps y la pasada semanal de diez minutos.
 5. En **Workflows**, activa **Auto-add to project** apuntando al repo del
    proyecto. La plantilla no copia esta automatización, y en el plan
    gratuito hay una sola por tablero, que cubre un solo repo.
-6. En **Settings → Manage access**, da acceso de escritura al team del
-   proyecto.
+6. En **Settings → Manage access**, da **Admin** a `<proyecto>-owners`,
+   que administra el tablero, y **Write** a `<proyecto>-devs`, que mueve
+   las tarjetas. El acceso va a esos sub-teams y no al team del proyecto,
+   que no tiene miembros directos: cada persona está en su sub-team.
 
 ## Cambiar la plantilla
 
