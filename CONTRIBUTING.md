@@ -20,6 +20,14 @@ Todo trabajo empieza en un issue, abierto con el formulario de su tipo:
 - Nada de secretos en un issue: ni contraseñas, ni tokens, ni datos
   personales.
 
+## Tableros
+
+Cada proyecto lleva su trabajo en un tablero de GitHub Projects, creado
+desde la plantilla de la organización, **Project Template**. Los issues
+se suman al tablero de su proyecto y avanzan con sus PR. Cómo se usa y
+cómo se crea el tablero de un proyecto nuevo está en
+[docs/projects.md](https://github.com/nxtep-peru/.github/blob/main/docs/projects.md).
+
 ## Ramas
 
 Trabajamos con ramas cortas sobre `main` (trunk-based). Nada se commitea

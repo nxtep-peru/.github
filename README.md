@@ -9,6 +9,7 @@ GitHub la aplica a todo repo que no tenga la suya.
 | `.github/ISSUE_TEMPLATE/` | Los formularios de issue, uno por tipo: Bug, Feature y Task |
 | `.github/pull_request_template.md` | La plantilla de los pull requests |
 | `CONTRIBUTING.md` | Cómo se trabaja en todos los repos |
+| `docs/projects.md` | Cómo funcionan los tableros de proyecto y cómo se crea uno nuevo desde **Project Template** |
 | `SECURITY.md` | Cómo reportar una vulnerabilidad |
 
 Un repo que define su propia carpeta `.github/ISSUE_TEMPLATE` deja de
