@@ -90,5 +90,7 @@ canal privado.
 ## Nombres
 
 Repos, archivos y carpetas, en inglés; los textos, en español. Cada repo
-se llama `<proyecto>-NN-<rol>`, por ejemplo `<proyecto>-01-backend`, y lo
-que es transversal a la organización pertenece al proyecto `platform`.
+se llama `<proyecto>-NN-<rol>`, por ejemplo `<proyecto>-01-backend`, salvo
+el monorepo que reúne todo un proyecto, que lleva el nombre del proyecto:
+`<proyecto>`. Lo que es transversal a la organización pertenece al
+proyecto `platform`.
