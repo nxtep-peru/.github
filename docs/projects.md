@@ -47,7 +47,16 @@ cómo se cierra el trabajo de DevOps y la pasada semanal de diez minutos.
    misma lista en el README.
 5. En **Workflows**, activa **Auto-add to project** apuntando al repo del
    proyecto. La plantilla no copia esta automatización, y en el plan
-   gratuito hay una sola por tablero, que cubre un solo repo.
+   gratuito hay una sola por tablero, que cubre un solo repo. Por eso en
+   **Project Template** está apagada: no tiene un repo propio.
+   - GitHub propone el filtro `is:issue,pr is:open label:bug`. Borra
+     `label:bug`, o el tablero solo recibirá los issues etiquetados como
+     bug. El filtro queda en `is:issue,pr is:open`.
+   - Guarda con **Save workflow**: cerrar el panel no guarda.
+   - Solo entran los issues nuevos o que cambian. Los que ya estaban
+     abiertos se agregan a mano; el enlace *See N existing items* los
+     lista.
+   - Pruébalo con un issue nuevo: entra al tablero en unos segundos.
 6. En **Settings → Manage access**, da **Admin** a `<proyecto>-owners`,
    que administra el tablero, y **Write** a `<proyecto>-devs`, que mueve
    las tarjetas. El acceso va a esos sub-teams y no al team del proyecto,
