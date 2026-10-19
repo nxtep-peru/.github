@@ -19,7 +19,7 @@ en el cuerpo.
 | Campo | Qué dice |
 |---|---|
 | `Type` | Bug, Feature o Task, según el formulario con que se abrió el issue |
-| `Frente` | Qué clase de trabajo es. Parte con Backend, Frontend, IA, Datos, DevOps y Producto, y cada proyecto ajusta las opciones |
+| `Frente` | Qué clase de trabajo es. Parte con Backend, Frontend, IA, Datos, DevOps, Producto y Legal, y cada proyecto ajusta las opciones, pero Legal está en todos |
 | `Priority` | Qué tan importante es ahora |
 | `Effort` | Cuánto trabajo lleva, estimado antes de empezar |
 | `Start date`, `Target date` | Las fechas de una épica, que dibujan el Roadmap |
