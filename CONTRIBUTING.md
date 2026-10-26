@@ -94,5 +94,7 @@ se llama `<proyecto>-NN-<rol>`, por ejemplo `<proyecto>-01-backend`. El
 monorepo que reúne todo un proyecto sigue la misma regla, con el rol
 `app`: `<proyecto>-01-app`. El `00` queda para la base de conocimiento
 del proyecto, `<proyecto>-00-knowledge-base`, con la documentación de
-producto. Lo que es transversal a la organización pertenece al proyecto
-`platform`.
+producto. Las herramientas del equipo, como el entorno de desarrollo y
+las plantillas de GitHub, pertenecen al proyecto `platform`; los
+servicios que comparten los aplicativos, como pagos y correos, al
+proyecto `back-office`.
